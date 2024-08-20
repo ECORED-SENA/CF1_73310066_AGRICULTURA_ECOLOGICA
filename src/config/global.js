@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Principios de la agroecología',
+    descripcionCurso:
+      'Este componente formativo aborda la agroecología, incluyendo principios, prácticas y certificaciones agrícolas ecológicas. Explora modelos alternativos de agricultura como la agricultura ecológica, orgánica, biológica y natural. También destaca la importancia de la biodiversidad, el reciclaje y la resiliencia en los agroecosistemas, y promueve valores humanos y sociales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -10,8 +11,12 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,78 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Generalidades',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Certificaciones agrícolas ecológicas',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Principios de la agroecología',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Elementos de la agroecología',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Biodiversidad',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Intercambio de conocimientos',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Sinergias',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Eficiencia',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Reciclaje',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Resiliencia',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Valores humanos y sociales',
+            hash: 't_4_7',
+          },
+          {
+            numero: '4.8',
+            titulo: 'Cultura y tradiciones alimentarias',
+            hash: 't_4_8',
+          },
+          {
+            numero: '4.9',
+            titulo: 'Gobernanza responsable',
+            hash: 't_4_9',
+          },
+          {
+            numero: '4.10',
+            titulo: 'Economía circular y solidaria',
+            hash: 't_4_10',
+          },
+        ],
       },
     ],
     subMenu: [
