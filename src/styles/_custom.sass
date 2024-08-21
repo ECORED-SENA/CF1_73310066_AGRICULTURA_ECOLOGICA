@@ -33,6 +33,18 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.png") !important
 
+.bloque-texto-c.color-secundario
+  background-color: #EDF6DB
+  height: 100%
+
+.tarjeta-audio.color-primario
+  border-color: #9CC8FF
+  background-color: #FCFAEE
+.tarjeta-audio.color-primario .tarjeta-audio__texto
+  color: $color-sistema-texto
+.audio.color-primario .audio__btn, .tarjeta-audio.color-primario .audio__btn, .tarjeta-dialogo.color-primario .audio__btn
+  background-color: #6C8BB1
+
 .bg
   &-c1
     background-image: url(../assets/curso/intro/img1.png)
@@ -44,3 +56,39 @@
     background-color: #DCEEB6
   &-c3
     background-color: #F7F0D8
+  &-c4
+    background-color: #ECDB9F
+    transition: all 0.5s ease-out
+    height: 100%
+  &-c4:hover
+    background-color: #F3D02C
+  &-c5
+    background-image: url(../assets/curso/tema1/img2.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+  &-c6
+    background-image: url(../assets/curso/tema1/img7.svg)
+    background-repeat: repeat-x
+    background-position: bottom
+  &-c7
+    background-color: #ECDB9F
+  &-c8
+    background-color: #A8D549
+  &-c9
+    background-color: #F7F0D8
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    transition: all 0.5s ease-out
+    height: 230px
+    @media screen and ( max-width: $bp-max-xl )
+      height: 250px
+    @media screen and ( max-width: $bp-max-lg )
+      height: 290px
+    @media screen and ( max-width: $bp-max-md )
+      height: auto
+  &-c9:hover
+    background-color: #DCEEB6
+  &-c10
+    background-color: #F3D02C
+    border-radius: 15px
