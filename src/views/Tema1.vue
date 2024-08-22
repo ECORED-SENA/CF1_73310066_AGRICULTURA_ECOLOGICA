@@ -165,7 +165,7 @@
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         .p-4.bg-c10.h-100
           .row.align-items-center
-            .col-lg-4
+            .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img12.svg', style="width: 300px", alt='').m-auto
             .col-lg-8
@@ -186,7 +186,6 @@
 <script>
 export default {
   name: 'Tema1',
-  components: {},
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
