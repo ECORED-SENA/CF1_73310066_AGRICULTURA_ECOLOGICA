@@ -33,6 +33,9 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.png") !important
 
+.banner-interno__titulo__icono i
+  color: $color-sistema-texto !important
+
 .bloque-texto-c.color-secundario
   background-color: #EDF6DB
   height: 100%
@@ -51,6 +54,13 @@
 .tarjeta.color-acento-botones
   background-color: #F7F0D8
 
+.tarjeta--gris
+  background-color: #EEEBDF
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #DCEEB6
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #DCEEB6
+
 .bg
   &-c1
     background-image: url(../assets/curso/intro/img1.png)
@@ -58,6 +68,8 @@
     margin-inline: -3.2rem !important
     background-size: cover
     margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-md )
+      margin-bottom: -23px
   &-c2
     background-color: #DCEEB6
   &-c3
@@ -144,3 +156,43 @@
       height: 140px
     @media screen and ( max-width: $bp-max-md )
       height: auto
+  &-c18
+    background-image: url(../assets/curso/tema4/img9.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c19
+    background-color: #F7F0D8
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    transition: all 0.5s ease-out
+    height: 170px
+    @media screen and ( max-width: $bp-max-xl )
+      height: 200px
+    @media screen and ( max-width: $bp-max-md )
+      height: auto
+  &-c20
+    background-image: url(../assets/curso/tema4/img18.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: bottom
+  &-c21
+    background-color: #F7F0D8
+    border-radius: 15px
+    height: 100%
+    transition: all 0.5s ease-out
+  &-c21:hover
+    background-color: #DCEEB6
+  &-c22
+    background-image: url(../assets/curso/tema4/img30.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: center
+  &-c23
+    background-image: url(../assets/curso/tema4/img33.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: top

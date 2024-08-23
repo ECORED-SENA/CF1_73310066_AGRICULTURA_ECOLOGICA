@@ -157,32 +157,160 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Generalidades',
+      referencia:
+        'Ecología verde (2018). Qué es la AGROECOLOGÍA - Agroecologia CARACTERÍSTICAS [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/NJ1CBZ34WyQ?feature=shared',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Certificaciones agrícolas ecológicas',
+      referencia:
+        'VisionSacha (2020).   Certificación Orgánica [Clase 1] [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/aZZvyosK_-w?feature=shared',
+    },
+    {
+      tema: 'Principios de la agroecología',
+      referencia:
+        'Secretaria General Comunidad Andina. (2011). Agricultura Familiar Agroecológica Campesina en la Comunidad Andina.',
+      tipo: 'PDF',
+      link:
+        'http://www.comunidadandina.org/StaticFiles/2011610181827revista_agroecologia.pdf',
+    },
+    {
+      tema: 'Principios de la agroecología',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Bases conceptuales de la agroecología. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/iPpLdjtIbtA?feature=shared',
+    },
+    {
+      tema: 'Principios de la agroecología',
+      referencia:
+        'Altieri, M. (2022.). Agroecología: Principios y estrategias para diseñar una agricultura que conserva recursos naturales y asegura la soberanía alimentaria. Corporación Grupo Semillas.',
+      tipo: 'Documento',
+      link:
+        'https://www.semillas.org.co/es/publicaciones/agroecologia-principios-y-estrategias-para-disenar-una-agricultura-que-conserva-recursos-naturales-y-asegura-la-soberania',
+    },
+    {
+      tema: 'Elementos de la agroecología',
+      referencia:
+        'INIA Chile (2021).¿Cuáles son los principios de la agroecología?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/xDFrLFScR_A?feature=shared',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Agricultura orgánica',
+      significado:
+        'sistema de producción agrícola que maximiza el uso de recursos internos de la finca, enfatizando la fertilidad del suelo y minimizando el uso de insumos no renovables y sintéticos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Agroecología',
+      significado:
+        'disciplina científica que estudia los componentes de un sistema agrícola, sus interrelaciones y la manera de intervenirlo con prácticas sostenibles.',
+    },
+    {
+      termino: 'Biodiversidad',
+      significado:
+        'diversidad de especies y recursos genéticos dentro de un ecosistema, fundamental para la resiliencia y sostenibilidad de los agroecosistemas.',
+    },
+    {
+      termino: 'Certificación ecológica',
+      significado:
+        'proceso de verificación que asegura que los productos agrícolas cumplen con normas específicas de producción ecológica.',
+    },
+    {
+      termino: 'Coberturas vivas',
+      significado:
+        'cultivos rastreros o de porte bajo utilizados para proteger y mejorar la calidad del suelo.',
+    },
+    {
+      termino: 'Control biológico',
+      significado:
+        'uso de organismos vivos para regular la población de plagas y enfermedades en la agricultura.',
+    },
+    {
+      termino: 'Permacultura',
+      significado:
+        'sistema de diseño agrícola que busca crear ecosistemas de producción sostenibles y autosuficientes.',
+    },
+    {
+      termino: 'Reciclaje',
+      significado:
+        'proceso de reutilización de nutrientes, agua y biomasa dentro de un agroecosistema para reducir desperdicios y aumentar la eficiencia.',
+    },
+    {
+      termino: 'Resiliencia',
+      significado:
+        'capacidad de un sistema agrícola de recuperarse de alteraciones o perturbaciones, como plagas, enfermedades o cambios climáticos.',
+    },
+    {
+      termino: 'Sinergias',
+      significado:
+        'interacciones entre componentes de un sistema agrícola que producen un efecto combinado mayor al que producirían por separado, mejorando la eficiencia y resiliencia del sistema.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Altieri, M. A. (1985). Agroecología: principios y estrategias para diseñar una agricultura que conserva recursos naturales y asegura la soberanía alimentaria. Berkeley: Universidad de California.',
       link: '',
+    },
+    {
+      referencia: 'EOCC. (2018). BCS ÖKO-GARANTIE. ',
+      link: 'https://eocc.nu/members/bcs-oko-garantie/',
+    },
+    {
+      referencia:
+        'FAO. (2018). Plataforma de conocimientos sobre agricultura familiar. ',
+      link: 'http://www.fao.org/family-farming/themes/agroecology/es/',
+    },
+    {
+      referencia: 'FAO. (s.f.). ¿Qué es la agricultura orgánica? ',
+      link: 'http://www.fao.org/docrep/007/ad818s/ad818s03.htm',
+    },
+    {
+      referencia:
+        'Gliessman, S. (2002). Agroecología. Procesos Ecológicos en Agricultura Sostenible. Turrialba: LITOCAT.',
+      link: '',
+    },
+    {
+      referencia: 'GLOBAL G.A.P. (2018). Certificación GLOBAL G.A.P. ',
+      link: 'https://www.globalgap.org/es',
+    },
+    {
+      referencia:
+        'González, K. (2018). Prepare Biofertilizantes de elementos menores. ',
+      link:
+        'https://zoovetesmipasion.com/produccion-sostenible/prepare-un-caldo-super-magro-de-elementos-menores/',
+    },
+    {
+      referencia: 'PNUD. (2018). Los ODS en acción. ',
+      link:
+        'http://www.undp.org/content/undp/es/home/sustainable-development-goals.html',
+    },
+    {
+      referencia:
+        'Rainforest Alliance. (2018). Qué significa el Certificado Rainforest Alliance? ',
+      link:
+        'https://www.rainforest-alliance.org/lang/es/about/rainforest-alliance-certified-seal',
+    },
+    {
+      referencia:
+        'Secretaria General Comunidad Andina. (2011). Agricultura Familiar Agroecológica Campesina en la Comunidad Andina. ',
+      link:
+        'http://www.comunidadandina.org/StaticFiles/2011610181827revista_agroecologia.pdf',
+    },
+    {
+      referencia: 'USDA. (2018). USDA ORGANIC. ',
+      link: 'https://www.usda.gov/topics/organic',
+    },
+    {
+      referencia: 'UTZ. (2018). Certificación UTZ. ',
+      link: 'https://utz.org/language-landingpage/sp/#undefined',
     },
   ],
   creditos: [
@@ -205,8 +333,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nina Elvira Rocha Nieto',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de Atención al Sector Agropecuario - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -215,35 +349,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',

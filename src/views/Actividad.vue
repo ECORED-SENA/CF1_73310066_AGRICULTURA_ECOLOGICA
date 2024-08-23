@@ -24,96 +24,198 @@ export default {
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
-          barajarRespuestas: false,
+            '¿Cuál es uno de los modelos de producción agrícola implementado desde la década de los 70s?',
+          imagen: require('@/assets/curso/img1.svg'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
-            {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
-              esCorrecta: false,
-            },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            { id: 'a', texto: 'Revolución tecnológica.', esCorrecta: false },
+            { id: 'b', texto: 'Revolución industrial.', esCorrecta: false },
+            { id: 'c', texto: 'Revolución verde.', esCorrecta: true },
+            { id: 'd', texto: 'Revolución biológica.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+            '¿Qué principio de la agroecología se refiere a asegurar la calidad del suelo?',
+          imagen: require('@/assets/curso/img2.svg'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Minimización de salidas.', esCorrecta: false },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+              texto: 'Propiciación de biodiversidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+              texto: 'Uso de materia orgánica descompuesta.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Establecimiento de una agricultura de procesos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Cuál de las siguientes es una certificación agrícola ecológica en Estados Unidos?',
+          imagen: require('@/assets/curso/img3.svg'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            { id: 'a', texto: 'ECOCERT.', esCorrecta: false },
+            { id: 'b', texto: 'USDA ORGANIC.', esCorrecta: true },
+            { id: 'c', texto: 'BCS.', esCorrecta: false },
+            { id: 'd', texto: 'JAS.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué práctica de la agricultura ecológica utiliza cultivos rastreros como protección del suelo?',
+          imagen: require('@/assets/curso/img4.svg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Uso de biopreparados.', esCorrecta: false },
+            { id: 'b', texto: 'Uso de coberturas vivas.', esCorrecta: true },
+            { id: 'c', texto: 'Control biológico.', esCorrecta: false },
+            { id: 'd', texto: 'Uso de coberturas muertas.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué certificación es conocida por la conservación de la biodiversidad y medios de vida sostenibles?',
+          imagen: require('@/assets/curso/img1.svg'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Certificación UTZ.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Certificación Rainforest Alliance.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Certificación GLOBAL G.A.P.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Certificación FAIRTRADE.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es un modelo alternativo de agricultura que excluye el uso de agroquímicos?',
+          imagen: require('@/assets/curso/img2.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Agricultura biológica.', esCorrecta: false },
+            { id: 'b', texto: 'Agricultura tecnológica.', esCorrecta: false },
+            { id: 'c', texto: 'Agricultura ecológica.', esCorrecta: true },
+            { id: 'd', texto: 'Agricultura industrial.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Cuál es un elemento clave de los agroecosistemas que implica la capacidad de un sistema de recuperarse de las alteraciones?',
+          imagen: require('@/assets/curso/img3.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Eficiencia.', esCorrecta: false },
+            { id: 'b', texto: 'Reciclaje.', esCorrecta: false },
+            { id: 'c', texto: 'Resiliencia.', esCorrecta: true },
+            { id: 'd', texto: 'Gobernanza responsable.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué práctica de la agricultura ecológica incluye el uso de organismos reguladores de plagas?',
+          imagen: require('@/assets/curso/img4.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Uso de biopreparados.', esCorrecta: false },
+            { id: 'b', texto: 'Control biológico.', esCorrecta: true },
+            { id: 'c', texto: 'Uso de coberturas muertas.', esCorrecta: false },
+            { id: 'd', texto: 'Agricultura biodinámica.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué principio de la agroecología busca minimizar las salidas del sistema como agua y materia orgánica?',
+          imagen: require('@/assets/curso/img1.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Propiciación de biodiversidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumento de interacciones benéficas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Minimización de salidas del sistema.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Reciclaje de biomasa.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es un modelo de agricultura que promueve la recuperación del conocimiento ancestral? ',
+          imagen: require('@/assets/curso/img2.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Agricultura natural.', esCorrecta: false },
+            { id: 'b', texto: 'Permacultura.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Agricultura por tecnologías apropiadas.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Agricultura mesiánica.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
       ],
       mensaje_final_aprobado:
