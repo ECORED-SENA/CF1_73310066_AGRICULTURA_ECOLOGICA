@@ -33,9 +33,8 @@ export default {
             { id: 'c', texto: 'Revolución verde.', esCorrecta: true },
             { id: 'd', texto: 'Revolución biológica.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
@@ -61,9 +60,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
@@ -77,9 +75,8 @@ export default {
             { id: 'c', texto: 'BCS.', esCorrecta: false },
             { id: 'd', texto: 'JAS.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
@@ -93,9 +90,8 @@ export default {
             { id: 'c', texto: 'Control biológico.', esCorrecta: false },
             { id: 'd', texto: 'Uso de coberturas muertas.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
@@ -117,9 +113,8 @@ export default {
             },
             { id: 'd', texto: 'Certificación FAIRTRADE.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
@@ -133,9 +128,8 @@ export default {
             { id: 'c', texto: 'Agricultura ecológica.', esCorrecta: true },
             { id: 'd', texto: 'Agricultura industrial.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
@@ -149,9 +143,8 @@ export default {
             { id: 'c', texto: 'Resiliencia.', esCorrecta: true },
             { id: 'd', texto: 'Gobernanza responsable.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
@@ -165,9 +158,8 @@ export default {
             { id: 'c', texto: 'Uso de coberturas muertas.', esCorrecta: false },
             { id: 'd', texto: 'Agricultura biodinámica.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
@@ -193,9 +185,8 @@ export default {
             },
             { id: 'd', texto: 'Reciclaje de biomasa.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
@@ -213,15 +204,13 @@ export default {
             },
             { id: 'd', texto: 'Agricultura mesiánica.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
-          mensaje_incorrecto:
-            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado:
-        '¡Has completado el cuestionario exitosamente! Felicidades.',
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
-        'No has alcanzado la puntuación mínima para aprobar. Te animamos a intentarlo de nuevo.',
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   computed: {},
