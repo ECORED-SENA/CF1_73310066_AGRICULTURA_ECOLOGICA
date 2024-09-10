@@ -30,39 +30,39 @@
               .p-4.bg-c3
                 figure.mb-4
                   img(src='@/assets/curso/intro/img2.svg', style="width: 100px", alt='')
-                p #[b Certifficaciones]
+                h4 #[b Certificaciones]
                 ul.lista-ul
                   li.d-flex
-                    i.fas.fa-check-circle
+                    i.fas.fa-check-circle(style="color: #BDAF7F")
                     |
                     p.mb-0 #[b Autenticidad de los productos:] las certificaciones garantizan al consumidor la autenticidad de los productos ecológicos.
                   li.d-flex
-                    i.fas.fa-check-circle
+                    i.fas.fa-check-circle(style="color: #BDAF7F")
                     |
                     p.mb-0 #[b Apoyo a los agricultores:] ayudan a los agricultores en la adopción de métodos sostenibles.
             .col-md-8.col-lg-5(data-aos="fade-left")
               .p-4.bg-c3.h-100
                 figure.mb-4
                   img(src='@/assets/curso/intro/img3.svg', style="width: 100px", alt='')
-                p #[b Beneficios]
+                h4 #[b Beneficios]
                 ul.lista-ul
                   li.d-flex
-                    i.fas.fa-check-circle
+                    i.fas.fa-check-circle(style="color: #BDAF7F")
                     |
                     p.mb-0 #[b Salud del suelo:] preservan la salud del suelo.
                   li.d-flex
-                    i.fas.fa-check-circle
+                    i.fas.fa-check-circle(style="color: #BDAF7F")
                     |
                     p.mb-0 #[b Calidad del agua:] mantienen la calidad del agua.
                   li.d-flex
-                    i.fas.fa-check-circle
+                    i.fas.fa-check-circle(style="color: #BDAF7F")
                     |
                     p.mb-0 #[b Diversidad biológica:] Promueven la diversidad biológica.
           .row
-            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/intro/img3.png', style="width: 400px", alt='').m-auto
-            .col-lg-8(data-aos="fade-left")
+                img(src='@/assets/curso/intro/img3.png', style="width: 480px", alt='').m-auto
+            .col-lg-7(data-aos="fade-left")
               p.mb-0 La implementación de la agroecología implica una transformación profunda de las prácticas agrícolas, basada en el conocimiento local y científico, y en la participación de las comunidades. Fomenta la autonomía de los agricultores, contribuye a la seguridad alimentaria y apoya el desarrollo sostenible a nivel global. Este enfoque no solo se centra en la producción de alimentos, sino también en la construcción de sistemas alimentarios justos y equitativos, que respeten tanto a las personas como al planeta.
     
 </template>

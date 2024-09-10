@@ -29,7 +29,7 @@
                     img(src="@/assets/curso/tema4/img2.png", style="width: 100px", alt="").m-auto
                 .col
                   p.mb-0 #[b Cultivos intercalados]
-                  p.mb-0 Incluyen tanto la producción agrícola como pecuaria, favoreciendo la diversidad espacial.
+                  p.mb-0 Uso de barreras vivas, tutores vivos y cultivos asociados que incrementan la diversidad espacial.
           .col-10.col-md-8.col-lg-6
             .p-4.bg-c8.h-100
               .row.align-items-center
@@ -112,7 +112,7 @@
             .col-12
               .p-3.bg-white
                 p.text-center.mb-0 #[b Adaptación al cambio climático]
-          p.text-center.mb-0 Combinación de conocimientosd prácticos y científicos para enfrentar desafíos climáticos.
+          p.text-center.mb-0 Combinación de conocimientos prácticos y científicos para enfrentar desafíos climáticos.
       .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         .p-4.bg-c11
           figure.mb-3
@@ -153,7 +153,7 @@
                 img(src='@/assets/curso/tema4/img8.svg' alt='AvatarTop')
                 .tarjeta.color-primario
                   .p-4
-                    h2.text-center Resilencia
+                    h2.text-center Resiliencia
                     p.text-center Las interacciones positivas entre los componentes del sistema aumentan la capacidad de recuperación y adaptación del sistema ante cambios y desafíos.
     p.mb-5(data-aos="fade-right") Los beneficios de las sinergias son:
     .row.justify-content-center
@@ -271,7 +271,7 @@
               figure.mb-3
                 img(src='@/assets/curso/tema4/img16.svg', style="width: 60px", alt='')
               p.mb-0 #[b Circulación de biomasa]
-              p.mb-0 La biomasa circula internamente en el sistema, tratando de no dejar esca par eI mínimo recurso.
+              p.mb-0 La biomasa circula internamente en el sistema, tratando de no dejar escapar eI mínimo recurso.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img14.png', style="width: 350px", alt='').m-auto
@@ -354,7 +354,7 @@
                   .col-12
                     .p-3.bg-white
                       p.text-center.mb-0 #[b Influencia mutua]
-                p.text-center.mb-0 Los agroecosistemas forman parte de las comunidades humanas y por tanto es mutua su influencia.
+                p.text-center.mb-0 Los agroecosistemas forman parte de las comunidades humanas y, por tanto, es mutua su influencia.
     Separador
     #t_4_7
     .titulo-segundo.color-secundario
@@ -368,7 +368,7 @@
         p #[b Agroecología y objetivos del desarrollo sostenible]
         br
         br
-        p La agroecología se ubica en estos objetivos, relacionados con la mejora de los medios de vida. El productor es un componente esencial en los sistemas alimentarios y por lo tanto los valores humanos y sociales que le rodean son fundamentales en el logro de reconocer la dignidad humana, la equidad, la inclusión y la justicia.
+        p La agroecología se ubica en estos objetivos, relacionados con la mejora de los medios de vida. El productor es un componente esencial en los sistemas alimentarios y, por lo tanto, los valores humanos y sociales que le rodean son fundamentales en el logro de reconocer la dignidad humana, la equidad, la inclusión y la justicia.
     p.mb-5(data-aos="fade-right") Los beneficios de los agroecosistemas son:
     .row.justify-content-center.align-items-center
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
@@ -413,7 +413,7 @@
         .px-5
           .titulo-segundo.color-secundario
             h2 4.8 Cultura y tradiciones alimentarias
-          p(data-aos="fade-right") La agroecología brinda la posibilidad de producir alimentos para surtir una dieta sana, diversificada y culturalmente adecuada, contribuyendo a la seguridad alimentaria y a la nutrición. También, promueve la producción de alimentos saludables haciéndolos disponibles mediante su producción ecológica.
+          p(data-aos="fade-right") La agroecología brinda la posibilidad de producir alimentos para surtir una dieta sana, diversificada y culturalmente adecuada, contribuyendo a la seguridad alimentaria y a la nutrición. También, promueve la producción de alimentos saludables, haciéndolos disponibles mediante su producción ecológica.
           p.mb-5(data-aos="fade-right") Los beneficios de la agroecología en la cultura alimentaria son:
           .row.justify-content-center.mb-5
             .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -444,7 +444,7 @@
                       p.text-center.mb-0 #[b Seguridad alimentaria y nutrición]
                 p.text-center.mb-0 Contribuye a la seguridad alimentaria y a una mejor nutrición.
           .row
-            .col-lg-5(data-aos="fade-right")
+            .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema4/img31.png', style="width: 440px", alt='').m-auto
             .col-lg-7(data-aos="fade-left")
@@ -495,25 +495,25 @@
                   .p-4.bg-c11
                     figure.mb-3
                       img(src='@/assets/curso/tema4/img22.svg', style="width: 60px", alt='')
-                    p.mb-0 #[b Mercados locales]
+                    p #[b Mercados locales]
                     p.mb-0 Fomenta la producción accesible en mercados locales.
                 .col-md-6.col-lg-3.mb-4.mb-lg-0
                   .p-4.bg-c11
                     figure.mb-3
                       img(src='@/assets/curso/tema4/img23.svg', style="width: 60px", alt='')
-                    p.mb-0 #[b Etiquetas de denominación de origen]
+                    p #[b Etiquetas de denominación de origen]
                     p.mb-0 Garantizan la autenticidad y calidad de los productos.
                 .col-md-6.col-lg-3.mb-4.mb-lg-0
                   .p-4.bg-c11
                     figure.mb-3
                       img(src='@/assets/curso/tema4/img24.svg', style="width: 60px", alt='')
-                    p.mb-0 #[b Comercio electrónico]
+                    p #[b Comercio electrónico]
                     p.mb-0 Facilita la distribución de productos agroecológicos.
                 .col-md-6.col-lg-3.mb-4.mb-lg-0
                   .p-4.bg-c11
                     figure.mb-3
                       img(src='@/assets/curso/tema4/img24.svg', style="width: 60px", alt='')
-                    p.mb-0 #[b Reducción del desperdicio]
+                    p #[b Reducción del desperdicio]
                     p.mb-0 Ayuda a disminuir el desperdicio de alimentos.
             .col-lg-4(data-aos="fade-left")
               figure

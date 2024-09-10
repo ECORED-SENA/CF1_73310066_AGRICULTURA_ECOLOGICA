@@ -66,7 +66,7 @@
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .bloque-texto-c.color-secundario.p-4
           i.fas.fa-quote-right.mb-4
-          h3.mb-2 "La agroecología como disciplina científica estudia los componentes de un sistema agrícola, sus interrelaciones y la manera de intervenirlo con prácticas que promuevan su sostenibilidad".
+          h3.mb-2 "La agroecología como disciplina científica estudia los componentes de un sistema agrícola, sus interrelaciones y la manera de intervenirlo con prácticas que promuevan su sostenibilidad"
           span (FAO, s.f.).
       .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
         figure
@@ -170,10 +170,10 @@
                 img(src='@/assets/curso/tema1/img12.svg', style="width: 300px", alt='').m-auto
             .col-lg-8
               p #[b Pódcast]
-              p Es momento de escuchar el podcast de Don Campos y Azusena. En él, explican cómo los modelos alternativos de agroecología están transformando la agricultura hacia una mayor sostenibilidad, respetando y colaborando con los ecosistemas naturales.
+              p Es momento de escuchar el pódcast de Don Campos y Azusena. En él, explican cómo los modelos alternativos de agroecología están transformando la agricultura hacia una mayor sostenibilidad, respetando y colaborando con los ecosistemas naturales.
               TarjetaAudio.color-primario.mb-3(
                 texto="Modelos alternativos de agroecología"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/tema1/audio1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

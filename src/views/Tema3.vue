@@ -33,7 +33,7 @@
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src='@/assets/curso/tema3/img2.svg' alt='AvatarTop')
-                    p.text-center.mb-0 Asegurar la calidad del suelo para los cultivos mediante prácticas como el uso de materia orgánica descompuesta y el favorecimiento de microornismos benéfico en el suelo.
+                    p.text-center.mb-0 Asegurar la calidad del suelo para los cultivos mediante prácticas como el uso de materia orgánica descompuesta y el favorecimiento de microorganismos benéfico en el suelo.
                 .tarjeta.color-acento-botones
                   .p-4
                     .row.justify-content-center.mb-3
@@ -69,8 +69,8 @@
                     p #[b Pódcast]
                     p Ahora Don Campos y Azusena explican los principios de agroecología, destacando la importancia de la sostenibilidad y la conservación de los recursos naturales.
                     TarjetaAudio.color-primario(
-                      texto="Modelos alternativos de agroecología"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      texto="Principios de la agroecología"
+                      :audio="require('@/assets/curso/tema3/audio1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

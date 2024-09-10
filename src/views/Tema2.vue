@@ -86,7 +86,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img5.svg', style="width: 30px", alt='').m-auto
                 .col
-                  p.mb-0 #[b Resolución 0199 de 2016 MADR (1488)]
+                  p.mb-0 #[b Resolución 0199 de 2016 MADR (1488)].
           .col-12.bg-c12
             .p-3
               .row.align-items-center
@@ -94,7 +94,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img5.svg', style="width: 30px", alt='').m-auto
                 .col
-                  p.mb-0 #[b Reglamento de la producción Agropecuaria Ecológica MADR (1134)]
+                  p.mb-0 #[b Reglamento de la producción Agropecuaria Ecológica MADR (1134)].
           .col-12.bg-c2
             .p-3
               .row.align-items-center
@@ -102,7 +102,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img5.svg', style="width: 30px", alt='').m-auto
                 .col
-                  p.mb-0 #[b Resolución 148 de 2004:] Creación y Reglamentación Sello Alimento Ecológico MADR (993)
+                  p.mb-0 #[b Resolución 148 de 2004:] Creación y Reglamentación Sello Alimento Ecológico MADR (993).
           .col-12.bg-c12
             .p-3
               .row.align-items-center
@@ -110,7 +110,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img5.svg', style="width: 30px", alt='').m-auto
                 .col
-                  p.mb-0 #[b Resolución 033 de 2007:] Modificación de la Resolución 148/04
+                  p.mb-0 #[b Resolución 033 de 2007:] Modificación de la Resolución 148/04.
           .col-12.bg-c2
             .p-3
               .row.align-items-center
@@ -118,7 +118,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img5.svg', style="width: 30px", alt='').m-auto
                 .col
-                  p.mb-0 #[b Resolución 0187 de 2016:] Periodo de conversión ecológica MADR (427)
+                  p.mb-0 #[b Resolución 0187 de 2016:] Periodo de conversión ecológica MADR (427).
       .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img2.png', style="width: 330px", alt='').m-auto
@@ -134,7 +134,7 @@
                     img(src='@/assets/curso/tema1/img8.svg', style="width: 60px", alt='').m-auto
                 .col
                   h2.mb-1 Certificación  a nivel mundial
-          p.mb-5(data-aos="fade-right") A nivel mundial las certificaciones ecológicas más conocidas son:
+          p.mb-5(data-aos="fade-right") A nivel mundial, las certificaciones ecológicas más conocidas son:
           .row.align-items-center.mb-5
             .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
               .row
