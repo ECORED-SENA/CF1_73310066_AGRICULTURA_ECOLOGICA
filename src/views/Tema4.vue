@@ -257,7 +257,7 @@
       h2 4.5 Reciclaje
     .row.justify-content-center.mb-4
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Los sistemas naturales no presentan desperdicio ni contaminación y los agroecosistemas intentan imitar estos sistemas, por lo que se deben reciclar nutrientes, agua y biomasa a fin de reducir sus salidas en forma de desechos. Entre menos desperdicio mayor eficiencia del sistema.
+        p Los sistemas naturales no presentan desperdicio ni contaminación y los agroecosistemas intentan imitar estos sistemas, por lo que se deben reciclar nutrientes, agua y biomasa a fin de reducir sus salidas en forma de desechos. Entre menos desperdicio, mayor eficiencia del sistema.
         p Las prácticas de reciclaje en agricultura ecológica son:
         .row
           .col-md-6.mb-4.mb-md-0
@@ -345,7 +345,7 @@
                   .col-12
                     .p-3.bg-white
                       p.text-center.mb-0 #[b Variabilidad en la producción]
-                p.text-center.mb-0 La variabilidad en la producción hace que ante una novedad en alguno de los sistemas de producción, sea subsanada por otro en la misma unidad productiva.
+                p.text-center.mb-0 La variabilidad en la producción hace que, ante una novedad en alguno de los sistemas de producción, sea subsanada por otro en la misma unidad productiva.
             .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
               .p-4.bg-c21
                 figure.mb-4
@@ -399,7 +399,7 @@
                 img(src='@/assets/curso/tema4/img28.png', style="width: 350px", alt='')
           .row(numero="5" titulo="Oportunidades")
             .col-md-8.mb-4.mb-md-0
-              p.mb-0 Ofrecen a los jóvenes la oportunidad de una opción de vida con un trabajo digno y amigable con el medio ambiente.
+              p.mb-0 Ofrecen a los jóvenes la oportunidad de una opción de vida con un trabajo digno y amigable con el medioambiente.
             .col-md-4
               figure
                 img(src='@/assets/curso/tema4/img29.png', style="width: 350px", alt='')

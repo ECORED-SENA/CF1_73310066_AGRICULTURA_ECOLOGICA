@@ -33,7 +33,7 @@
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src='@/assets/curso/tema3/img2.svg' alt='AvatarTop')
-                    p.text-center.mb-0 Asegurar la calidad del suelo para los cultivos mediante prácticas como el uso de materia orgánica descompuesta y el favorecimiento de microorganismos benéfico en el suelo.
+                    p.text-center.mb-0 Asegurar la calidad del suelo para los cultivos mediante prácticas como el uso de materia orgánica descompuesta y el favorecimiento de microorganismos benéficos en el suelo.
                 .tarjeta.color-acento-botones
                   .p-4
                     .row.justify-content-center.mb-3

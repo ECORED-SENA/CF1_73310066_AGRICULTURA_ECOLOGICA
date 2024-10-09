@@ -12,7 +12,7 @@
         .px-5.pb-5
           .row.mb-5
             .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-              p La agroecología se presenta como una alternativa esencial para enfrentar los desafíos medioambientales y sociales que surgen de los métodos agrícolas convencionales. Este enfoque integral estudia los componentes de los sistemas agrícolas y sus interrelaciones, promoviendo prácticas sostenibles que respetan el medio ambiente y mejoran la calidad de vida de las comunidades rurales. Al basarse en principios ecológicos y sociales, la agroecología busca optimizar la utilización de recursos naturales, minimizar el uso de insumos externos y fomentar la biodiversidad.
+              p La agroecología se presenta como una alternativa esencial para enfrentar los desafíos medioambientales y sociales que surgen de los métodos agrícolas convencionales. Este enfoque integral estudia los componentes de los sistemas agrícolas y sus interrelaciones, promoviendo prácticas sostenibles que respetan el medioambiente y mejoran la calidad de vida de las comunidades rurales. Al basarse en principios ecológicos y sociales, la agroecología busca optimizar la utilización de recursos naturales, minimizar el uso de insumos externos y fomentar la biodiversidad.
               .row
                 .col-12
                   .p-4.bg-c2

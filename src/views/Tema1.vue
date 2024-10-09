@@ -14,32 +14,32 @@
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width: 500px", alt='').m-auto
     .row.mb-0.mb-lg-5(data-aos="fade-down")
-      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0
+      .col-6.col-md-4.col-lg-4.my-3.mb-lg-0
         .p-4.bg-c4
           figure.mb-3
             img(src='@/assets/curso/tema1/img1.svg', style="width: 80px", alt='').m-auto
           p.text-center.mb-0 Alto uso de agroquímicos de síntesis.
-      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0
+      .col-6.col-md-4.col-lg-4.my-3.mb-lg-0
         .p-4.bg-c4
           figure.mb-3
             img(src='@/assets/curso/tema1/img2.svg', style="width: 60px", alt='').m-auto
           p.text-center.mb-0 Modificaciones genéticas.
-      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0
+      .col-6.col-md-4.col-lg-4.my-3.mb-lg-0
         .p-4.bg-c4
           figure.mb-3
             img(src='@/assets/curso/tema1/img3.svg', style="width: 80px", alt='').m-auto
           p.text-center.mb-0 Utilización intensiva del recurso del suelo.
-      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0
+      .col-6.col-md-4.col-lg-4.my-3.mb-lg-0
         .p-4.bg-c4
           figure.mb-3
             img(src='@/assets/curso/tema1/img4.svg', style="width: 80px", alt='').m-auto
           p.text-center.mb-0 Especialización de la producción.
-      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0
+      .col-6.col-md-4.col-lg-4.my-3.mb-lg-0
         .p-4.bg-c4
           figure.my-3
             img(src='@/assets/curso/tema1/img5.svg', style="width: 80px", alt='').m-auto
           p.text-center.mb-0 Monocultivo.
-      .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0
+      .col-6.col-md-4.col-lg-4.my-3.mb-lg-0
         .p-4.bg-c4
           figure.mb-3
             img(src='@/assets/curso/tema1/img6.svg', style="width: 80px", alt='').m-auto
@@ -53,7 +53,7 @@
               figure.mt-4.mt-lg-0
                 img(src='@/assets/curso/tema1/img3.png', style="width: 500px", alt='').m-auto
             .col-lg-7
-              p.mb-0 Ante esta situación, se vienen proponiendo modelos alternativos más amigables con el medio ambiente en el marco de una producción sostenible. Uno de ellos es el de la agricultura ecológica, basado en los principios de la agroecología como ciencia.
+              p.mb-0 Ante esta situación, se vienen proponiendo modelos alternativos más amigables con el medioambiente en el marco de una producción sostenible. Uno de ellos es el de la agricultura ecológica, basado en los principios de la agroecología como ciencia.
     .row.mb-5(data-aos="fade-right")
       .col-auto.bg-c6
         .row.align-items-end
